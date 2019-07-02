@@ -30,6 +30,9 @@ const App = props => {
         <button onClick={switchNameHandler} >Switch Name</button>
         <Person name={personState.persons[0].name} age={personState.persons[0].age}/>
         <Person name={personState.persons[1].name} age={personState.persons[1].age}/>
+
+
+        //Button from here
         <h2>This is a Like Button</h2>
         <Like/>
         
