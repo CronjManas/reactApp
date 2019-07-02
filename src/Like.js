@@ -32,7 +32,7 @@ class Like extends Component {
                 <p>{this.state.value}</p>
             </div>
         )
-    }
+    } 
     
 
 }
